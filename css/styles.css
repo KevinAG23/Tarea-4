@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.option:hover {
+    background-color: #f9f9f9;
+}
+
+.btn {
+    width: 100%;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+#controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+#final-screen {
+    display: none;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#mainNav {
+    background-color: #fcfdff; /* Color de fondo principal */
+    transition: background-color 0.3s ease; /* Transición de color */
+}
+
+#mainNav a.navbar-brand {
+    color: #ff2033; /* Color del texto del enlace */
+    font-family: 'Arial', sans-serif; /* Tipo de fuente */
+    transition: color 0.3s ease; /* Transición de color */
+}
+
+#mainNav a.navbar-brand:hover {
+    color: #0056b3; /* Cambia de color al pasar el mouse sobre el enlace */
+}
+
+#mainNav button.navbar-toggler {
+    border-color: #fff; /* Color del borde del botón del menú desplegable */
+}
+
+#mainNav button.navbar-toggler-icon {
+    background-color: #fff; /* Color del icono del botón del menú desplegable */
+}
+
+#mainNav a.navbar-toggler-icon {
+    color: #007bff; /* Color del icono del botón del menú desplegable cuando está activo */
+}
+
+#mainNav a.navbar-toggler-icon:hover {
+    color: #0056b3; /* Cambia de color al pasar el mouse sobre el icono del botón del menú desplegable */
+}
+
+
+
